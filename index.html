@@ -1,47 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>nkg.io - Nathanael Georgeson</title>
-	<!-- need to figure out a better favicon at some point. <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> -->
-	<!-- Bootstrap CSS and viewport setup -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- SEO meta tags -->
-	<meta name="description" content="Nathanael Georgeson's little slice of the internet.">
+
+  <!-- Page Information
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Nathanael Georgeson</title>
+  <meta name="description" content="https://nkg.io">
+  <meta name="author" content="Nathanael Georgeson">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Themes:
+            Auto:   css/skeleton-auto.css
+            Light:  css/skeleton-light.css
+            Dark:   css/skeleton-dark.css
+     -->
+    <link rel="stylesheet" href="css/skeleton-auto.css">
+
+    <!-- Brand Styles -->
+    <link rel="stylesheet" href="css/brands.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/littlelink.png">
+
 </head>
-	
+
 <body>
-        <div class="container">
-		<h1 class="mt-5">Nathanael Georgeson</h1>
-    		<p class="lead">Welcome to my little slice of the Internet.</p>
-		<hr> <!-- TODO: check if there is a better horizontal rule method although this looks fine -->
-		<p>Hi - I'm an IT professional, with a passion for empowering people with technology.</p>
-		
-		<h4>
-			Say hello!
-			<small class="text-muted">You'll find me on one of these:</small>
-		</h4>
 
-		<div class="list-group mb-3">
-		    <a class="list-group-item list-group-item-action d-flex align-items-center" href="mailto:nat@nkg.io">
-		      <img src="https://outlook.office.com/owa/favicon.ico" alt="Email" width="32" height="32" class="rounded mr-2">
-		      <span>
-			<strong>Email:</strong> nat@nkg.io
-		      </span>
-		    </a>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
 
-		    <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://m.me/nkg.io">
-		      <img src="https://static.xx.fbcdn.net/rsrc.php/ym/r/YQbyhl59TWY.ico" alt="Messenger" width="32" height="32" class="rounded mr-2">
-		      <span>
-			<strong>Messenger:</strong> @nkg.io
-		      </span>
-		    </a>
-		</div>
-        </div>
-	<!-- Bootstrap Javascript -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- 
+
+          ## Getting Started with LittleLink
+
+          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+
+          You can add your own brand or others brands you may need in the `css/brands.css` file. 
+
+          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+
+          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+
+          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+
+          Edit the "Short Bio" section tell users about yourself or your brand.
+
+        -->
+
+        <!-- Your Image Here
+        <img src="images/littlelink.svg" class="avatar" srcset="images/littlelink.svg 2x" alt="">
+        -->
+
+        <!-- Title -->
+        <h1 role="heading">Nathanael Georgeson</h1>
+
+        <!-- Short Bio -->
+        <p>Hi there - I'm an IT professional, with a passion for empowering people with technology.</p>
+
+        <!-- GitHub
+        <a class="button button-github" href="https://github.com/nkg-io" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/github.svg" alt="">GitHub</a><br>
+        -->
+
+        <!-- LinkedIn -->
+        <a class="button button-linked" href="https://au.linkedin.com/in/nathanaelgeorgeson" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/linkedin.svg" alt="">LinkedIn</a><br>
+
+        <!-- Generic Email -->
+        <a class="button button-default" href="mailto:nat@nkg.io" target="_blank" rel="noopener" role="button"><img class="icon" src="images/icons/generic-email.svg" alt="">Email</a><br>
+
+        <br>
+        <!-- 
+            Footer:
+            This includes a link to privacy.html page which can be setup for your Privacy Policy.
+            This also includes a link to the LittleLink repository to make forking LittleLink easier.
+            You can edit or remove anything here to make your own footer.
+        
+        <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>-->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
